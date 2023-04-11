@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #836FFF;
+}
+#titulo{
+    text-align: center;
+    font-family: Verdana;
+    color: #E6E6FA;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#lista{
+    margin: 0 auto;
+    width: 900px;
+    height: 430px;
+}
+.ex{
+    position: relative;
+    margin: 15px auto;
+    width: 800px;
+    height: 120px;
+    border-radius: 12px;
+    background-color: #E6E6FA;
+    transition: 1s;
+}
+.ex:hover{
+    transform: scale(1.06,1.06);
+    transition: 1s;
+}
