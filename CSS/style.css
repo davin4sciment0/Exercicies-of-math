@@ -5,7 +5,10 @@
 body{
     background-color: #836FFF;
 }
-#titulo{
+.color{
+    background-color: #1C1C1C;
+}
+h1{
     text-align: center;
     font-family: Verdana;
     color: #E6E6FA;
@@ -14,13 +17,13 @@ body{
 }
 #lista{
     margin: 0 auto;
-    width: 900px;
+    width: 60%;
     height: 430px;
 }
 .ex{
     position: relative;
     margin: 15px auto;
-    width: 800px;
+    width: 80%;
     height: 120px;
     border-radius: 12px;
     background-color: #E6E6FA;
@@ -29,4 +32,36 @@ body{
 .ex:hover{
     transform: scale(1.06,1.06);
     transition: 1s;
+}
+.botao{
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+}
+#btn{
+    margin: auto 10px auto 10px;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #654eff;
+    transition: 2s;
+}
+#btnclaro{
+    margin: auto 10px auto 10px;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #c7c7c7;
+    transition: 2s;
+}
+#btnescuro{
+    margin: auto 10px auto 10px;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1f1f1f;
+    transition: 2s;
 }
