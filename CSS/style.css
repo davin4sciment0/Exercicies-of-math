@@ -22,7 +22,7 @@ h1{
     width: 60%;
     height: 430px;
 }
-.ex{
+#ex1{
     position: relative;
     margin: 15px auto;
     width: 80%;
@@ -31,8 +31,61 @@ h1{
     background-color: #E6E6FA;
     transition: 1s;
 }
-.ex:hover{
+#ex1:hover{
     transform: scale(1.06,1.06);
+    transition: 1s;
+}
+.ex1click{
+    position: relative;
+    margin: 15px auto;
+    width: 80%;
+    height: 200px;
+    border-radius: 12px;
+    background-color: #E6E6FA;
+    transition: 1s;
+}
+#ex2{
+    position: relative;
+    margin: 15px auto;
+    width: 80%;
+    height: 120px;
+    border-radius: 12px;
+    background-color: #E6E6FA;
+    transition: 1s;
+}
+#ex2:hover{
+    transform: scale(1.06,1.06);
+    transition: 1s;
+}
+.ex2click{
+    position: relative;
+    margin: 15px auto;
+    width: 80%;
+    height: 300px;
+    border-radius: 12px;
+    background-color: #E6E6FA;
+    transition: 1s;
+}
+#ex3{
+    position: relative;
+    margin: 15px auto;
+    width: 80%;
+    height: 120px;
+    border-radius: 12px;
+    background-color: #E6E6FA;
+    transition: 1s;
+}
+#ex3:hover{
+    transform: scale(1.06,1.06);
+    transition: 1s;
+}
+.ex3click{
+    position: relative;
+    margin: 15px auto;
+    width: 80%;
+    height: 300px;
+    border-radius: 12px;
+    background-color: #E6E6FA;
     transition: 1s;
 }
 .botao{

@@ -20,7 +20,14 @@ botaoescuro.addEventListener('click', function(){
 })
 
 let botaoclaro = document.getElementById('btnclaro');
-botaoclaro.addEventListener('click', function(){
+botaoclaro.addEventListener('click', function(){ 
     let fundo3 = window.document.body;
     fundo3.style.background = '#C0C0C0';
+})
+
+let btn1 = document.getElementById('#btnex1');
+btn1.addEventListener('click', function(){
+    let x1 = document.getElementById('ex1');
+    x1.classList.remove('ex1');
+    x1.classList.add('ex1click');
 })
